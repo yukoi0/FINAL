@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6956910105157474332}
   - component: {fileID: 3093134573480937281}
-  - component: {fileID: 1818539017118165210}
   - component: {fileID: 2272065903655421656}
   - component: {fileID: 215941727323098911}
   - component: {fileID: 8162851863915511237}
   - component: {fileID: 756434527786821609}
+  - component: {fileID: 1093560377154556883}
   m_Layer: 6
   m_Name: fr1 1
   m_TagString: trash
@@ -89,18 +89,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1818539017118165210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7083338439946901796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c49fdd100eb90d47889cc89b121e178, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &2272065903655421656
 Rigidbody2D:
   serializedVersion: 4
@@ -209,3 +197,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1093560377154556883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7083338439946901796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3645f5443d378934e9ec2abab281b707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

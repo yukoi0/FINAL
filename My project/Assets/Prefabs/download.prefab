@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4928767890891389135}
   - component: {fileID: 1084790988308556844}
-  - component: {fileID: 1313065833339952702}
   - component: {fileID: -6243657271466768068}
   - component: {fileID: -3355393115742416708}
   - component: {fileID: 8465012023385703094}
+  - component: {fileID: -7656609114901105959}
   m_Layer: 6
   m_Name: download
   m_TagString: trash
@@ -88,18 +88,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1313065833339952702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5779637467185578125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c49fdd100eb90d47889cc89b121e178, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &-6243657271466768068
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -187,3 +175,15 @@ MonoBehaviour:
   prefabLayer:
     serializedVersion: 2
     m_Bits: 64
+--- !u!114 &-7656609114901105959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5779637467185578125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3645f5443d378934e9ec2abab281b707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

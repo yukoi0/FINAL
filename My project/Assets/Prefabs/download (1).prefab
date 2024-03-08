@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 5588046044082659579}
   - component: {fileID: 3205949249135163193}
   - component: {fileID: -6385502827854149389}
-  - component: {fileID: 486094458709846631}
   - component: {fileID: 6352614564508204151}
   - component: {fileID: -5664035523555611692}
+  - component: {fileID: 2650883518716518419}
   m_Layer: 6
   m_Name: download (1)
   m_TagString: trash
@@ -115,18 +115,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &486094458709846631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1756477111663378892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c49fdd100eb90d47889cc89b121e178, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &6352614564508204151
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -187,3 +175,15 @@ MonoBehaviour:
   prefabLayer:
     serializedVersion: 2
     m_Bits: 64
+--- !u!114 &2650883518716518419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756477111663378892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3645f5443d378934e9ec2abab281b707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
