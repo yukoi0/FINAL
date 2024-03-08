@@ -2,28 +2,20 @@ using UnityEngine;
 
 public class ClicktoDestroy : MonoBehaviour
 {
-    public event System.Action ObjectDestroyed;
-
-    private void OnDestroy()
-    {
-        ObjectDestroyed?.Invoke();
-    }
-
     private void OnMouseDown()
     {
         Destroy(gameObject);
-    }
 
-    private void Update()
-    {
-        if (gameObject == null) // Check if the GameObject is destroyed
+        // Check if the object has been destroyed
+        if (!gameObject)
         {
-            Debug.Log("hi");
+            Debug.Log("Object Destroyed!");
+
+            // Call the AddPoint method of Scoretext instance to record the score
+            if (Scoretext.instance != null)
+            {
+                Scoretext.instance.AddPoint();
+            }
         }
     }
-   /* private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Debug.Log("hi");
-    }*/
 }
-
