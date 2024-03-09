@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using UnityEngine;
 
 public class IgnoreCollision : MonoBehaviour
@@ -15,3 +15,4 @@ public class IgnoreCollision : MonoBehaviour
         Physics.IgnoreLayerCollision(prefabLayer, prefabLayer, true);
     }
 }
+    */

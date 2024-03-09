@@ -6,6 +6,7 @@ public class RandomSpawner : MonoBehaviour
 {
     public GameObject[] ItemPrefab;
     public float Radius = 1;
+    public bool AllowToSpawn;
 
     [SerializeField] GameObject[] Trash;
     [SerializeField] float secondspawn = 2f; // Initial spawn time
@@ -22,7 +23,7 @@ public class RandomSpawner : MonoBehaviour
 
     IEnumerator TrashSpawn()
     {
-        while (true)
+        while (AllowToSpawn)
         {
             var wanted = Random.Range(minTras, maxTras);
             var position = new Vector2(wanted, transform.position.y);
@@ -35,6 +36,11 @@ public class RandomSpawner : MonoBehaviour
                 secondspawn -= spawnTimeDecreaseRate;
             }
             Destroy(gameObject, 5f);
+
         }
+        yield return new WaitForSeconds(0.1f);
+        StartCoroutine(TrashSpawn());
+
+
     }
 }

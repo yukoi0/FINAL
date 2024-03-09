@@ -5,7 +5,7 @@ public class Scoretext : MonoBehaviour
 {
     public static Scoretext instance;
     public Text scoreText;
-    private int score = 0;
+    public int score = 0;
 
     private void Awake()
     {
@@ -23,13 +23,13 @@ public class Scoretext : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        scoreText.text = score.ToString() + " POINTS";
+        scoreText.text = score.ToString() + " FILS";
     }
 
     // Method to add a point to the score
     public void AddPoint()
     {
         score++;
-        scoreText.text = score.ToString() + " POINTS";
+        scoreText.text = score.ToString() + " FILS";
     }
 }
